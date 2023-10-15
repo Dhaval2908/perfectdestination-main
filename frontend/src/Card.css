@@ -1,0 +1,49 @@
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    max-width: 400px;
+    max-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.50);
+    flex-direction: column; 
+    }
+
+    .card-img {
+        width:400px;
+    }
+
+    .card h2{
+        color: aliceblue;
+    }
+
+    .card h3{
+        color: aliceblue;
+        overflow-wrap:break-word;
+    }
+
+    .card form{
+        color: aliceblue;
+    }
+
+    .card input{
+        color: Black;
+    }
+
+    .card button {
+        background-color: #fff;
+        color: #0077FF;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .card button:hover {
+        background-color: #0077FF;
+        color: #fff;
+      }
